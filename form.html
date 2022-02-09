@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body scroll ="yes">
+    <header><h1>Корзина</h1></header>
+    <form action="" name="orderOnTheSite" id="data">
+        <p>Вы выбрали Apple iPhone 13 Pro Max 512Gb Graphite (MLLF3)</p>
+        <img src="./Images/apple-iphone-13-pro-graphite-4_5.88x88.jpg" width="100" height="105" alt="Фото заказа">
+        <p><b>Заполните форму заказа для отправки</b></p>
+        <input type="text" name="firstNameLastName" id="textType" placeholder="Ввод данных">
+        <label for="textType">Введите Вашу фамилию и имя</label><br><br>
+        <input type="email" name="yourEmail" id="emailType" placeholder="Ввод почты">
+        <label for="emailType">Введите Вашу почту</label><br><br>
+        <label accesskey="p"> <input type="tel" name="phoneNumber" placeholder="Ввод номера"> Введите Ваш номер</label><br><br>
+        <select name="postOfficeAndCity" id="selectType" required>
+            <option></option>
+            <option value="1">Отделение 14, Днепр</option>
+            <option value="2">Отделение 67, Днепр</option>
+            <option value="3">Отделение 184, Днепр</option>
+            <option value="4">Отделение 124, Харьков</option>
+            <option value="5">Отделение 23, Харьков</option>
+            <option value="6">Отделение 19, Харьков</option>
+            <option value="7">Отделение 123, Одесса</option>
+            <option value="8">Отделение 134, Одесса</option>
+            <option value="9">Отделение 183, Одесса</option>
+            <option value="10">Отделение 98, Киев</option>
+            <option value="11">Отделение 112, Киев</option>
+            <option value="12">Отделение 111, Киев</option>
+        </select>
+        <label accesskey="o" for="selectType">Выберите адрес доставки</label>
+        <p>Перезвонить ли Вам для уточнения заказа и адреса?</p>
+        <input type="radio" name="callBackToACustomer" id="radioType" value="Yes" checked>
+        <label for="radioType">Да</label>
+        <input type="radio" name="callBackToACustomer" id="radioType2" value="No">
+        <label for="radioType2">Нет</label>
+        <p>Акссесуары и услуги для Вашего телефона:</p>
+        <label><input type="checkbox" name="additionalGoods" value="1">Чехол</label>
+        <label><input type="checkbox" name="additionalGoods" value="2">Стекло</label>
+        <label><input type="checkbox" name="additionalGoods" value="3">Наушники</label>
+        <input type="checkbox" name="additionalGoods" id="goodsForACustomer" value="4">
+        <label for="goodsForACustomer">Страховка</label>
+        <label><input type="checkbox" name="additionalGoods" value="5">Нет, спасибо</label><br><br>
+        <select name="paymentMethod" id="purchaseOfGoods" required>
+            <option></option>
+            <option value="1">Оплата частями</option>
+            <option value="2">Карта</option>
+            <option value="3">Безналичный расчет (для юридических лиц)</option>
+            <option value="4">Оплата в отделении</option>
+        </select>
+        <label accesskey="m" for="purchaseOfGoods">Способ оплаты</label><br><br>
+        <label for="ratingOfTheSite">Ваша оценка сайта (удобство и оптимизация)</label><br>
+        <input type="range" name="customer'sRating" id="ratingOfTheSite"><br>
+        <label for="textAreaType">Добавить комментарий к заказу</label><br><br>
+        <textarea name="commentOfAUser" id="textAreaType" cols="40" rows="5" placeholder="Ваш комментарий"></textarea><br><br>
+        <button type="reset">Аннулировать заказ</button>
+    </form><br>
+    <input type="submit" name="sendingData" form="data" value="Подтвердить заказ">
+</body>
+</html>
