@@ -1,0 +1,239 @@
+/* BUTTON */
+.button {
+    height: 50px;
+    text-align: center;
+    font-weight: 400;    
+    text-transform: uppercase;
+}
+
+.btn-white {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn-white:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn-black:hover {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #3a4998;
+    border: 1px solid #3a4998;
+}
+
+.btn-blue:hover {
+    background-color: #35383c;
+    border: 1px solid #35383c;
+    cursor: pointer;
+}
+
+.btn-black {
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+.btn-14 {
+    font-size: 14px;
+    width: 160px;
+}
+
+.btn-16 {
+    font-size: 16px;
+    width: 230px;
+}
+
+.btn-16_edit {
+    font-size: 16px;
+    width: 150px;
+}
+
+.aside-button {
+    width: 40px;
+    height: 40px;
+    background-color: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* BUTTON END */
+
+/* TEXT APPEARANCE */
+.text-white {
+    color: #fff;
+    font-family: 'Open-sans-light';
+    letter-spacing: 1.5px;
+}
+
+.text-white-2 {
+    color: #fff;
+    font-family: 'Ubuntu';
+    letter-spacing: 1.5px;
+}
+
+.text-white-2_ls-btn {
+    color: #fff;
+    font-family: 'Ubuntu';
+    letter-spacing: 2.5px;
+}
+
+.text-black {
+    color: #000;
+    font-family: 'Ubuntu';
+    letter-spacing: 1.5px;
+}
+/* TEXT APPEARANCE END */
+
+/* CARD */
+.card {
+    padding: 85px 35px;
+    box-sizing: border-box;
+}
+
+.card-2 {
+    padding: 40px 58px;
+    box-sizing: border-box;
+}
+
+.card-white {
+    background-color: #fff;
+}
+
+.card-grey {
+    background-color: #f2f2f2;
+}
+
+.card-sm {
+    width: 470px;
+    height: 430px;
+}
+
+.card-bg {
+    width: 520px;
+    height: 430px;
+}
+
+.card__heading {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: "Ubuntu";
+    margin-top: -30px;
+}
+
+.card__heading-2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-family: "Roboto";
+    margin-top: -45px;
+}
+
+.card__heading-3 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-family: "Ubuntu";
+    font-weight: 800;
+    margin-top: -15px;
+}
+
+.card__text {
+    font-size: 20px;
+    margin-bottom: 35px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    font-family: "Open-sans-light";
+}
+
+.card__text-2 {
+    font-size: 20px;
+    margin-bottom: 35px;
+    letter-spacing: -0.1px;
+    line-height: 32px;
+    font-family: "Open-sans-light", sans-serif;
+    font-style: italic;
+}
+/* CARD END */
+
+/* HEADING */
+.heading-bold {
+    font-weight: 800;
+}
+
+.heading-thin {
+    font-weight: 100;
+}
+/* HEADING END*/
+
+/* IMAGES */
+.image-bg {
+    width: 540px;
+    height: 540px;
+    border-radius: 50%;
+}
+
+.image-sm {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+/* IMAGES END*/
+
+/* BACKGROUND */
+.background {
+    height: 815px;
+    box-sizing: border-box;
+}
+
+.background_less-height {
+    height: 675px;
+    box-sizing: border-box;
+}
+/* BACKGROUND END*/
+
+/* TEXT'S BLOCK */
+.box {
+    width: 575px;
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 25px;
+}
+/* TEXT'S BLOCK END*/
+
+/* TITLE */
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-family: "Open-sans-light";
+    color: #909090;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+}
+/* TITLE END */
+
+/* FORM LOOK */
+.form__appearance {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-family: 'Open-sans-light';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+/* FORM LOOK END */
