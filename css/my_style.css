@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    font-family: 'BebasNeueBold';
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+}
+
+.container {
+    max-width: 2555px;
+}
+
+.aside {
+    background-color: #ffca05;
+    min-width: 216px;
+}
+
+.aside__column {
+    height: 3583px;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.head {
+    background-color: #ffffff;
+}
+
+.head__row {
+    display: flex;
+}
+
+.head__image {
+    height: 1122px;
+    width: 878px;
+}
+
+.head__body {
+    color: #22222d;
+    padding: 370px 863px 0 150px;
+    position: relative;
+}
+
+.head__first-name {
+    font-size: 167px;
+    letter-spacing: 17px;
+    font-family: 'BebasNeueBook';
+}
+
+.head__second-name {
+    font-size: 167px;
+    letter-spacing: 17px;
+    margin-top: -26px;
+    margin-left: -2px;
+    font-family: 'BebasNeueRegular';
+}
+
+.head__stripe {
+    width: 108px;
+    border-top: 6px solid #ffca05;
+    position: absolute;
+    top: 715px;
+}
+
+.head__profession {
+    font-size: 55px;
+    letter-spacing: 19px;
+    margin-top: 64px;
+    font-family: 'BebasNeueBook';
+}
+.container-row {
+    display: flex;
+}
+
+.info-about {
+    width: 878px;
+    min-width: 878px;
+    height: 2461px;
+    background-color: #292934;
+}
+
+.info-about__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 83px;
+    letter-spacing: 8.4px;
+}
+
+.title::after {
+    content: "_";
+    color: #ffca05;
+}
+
+.info-about__about {
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+.info-about__first-title {
+    padding: 157px 116px 52px;
+}
+
+.info-about__text {
+    color: #ffffff;
+    font-size: 33.33px;
+    line-height: 58.33px;
+    font-family:'PoppinsLight';
+    padding: 0 60px 0 117px;
+    letter-spacing: 3.3px;
+}
+
+.info-about__contact {
+   margin-bottom: 208px;
+}
+
+.info-about__second-title {
+    padding: 138px 115px 0;
+}
+
+.large-block-subtitle {
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0.6px;
+    font-family:'OpenSansSemiBold'; 
+
+}
+.info-about__title-location {
+    margin: 56px 115px 0;
+}
+
+.info-about__subtitle {
+    color: #ffffff;
+    font-family:'PoppinsLight';
+    padding: 6px 115px 0;
+    font-size: 29px;
+    letter-spacing: 0.34px;
+}
+
+.info-about__hobbies {
+    margin-bottom: 340px;
+}
+
+.info-about__third-title {
+    padding: 0 115px 0;
+    margin-bottom: 68px;
+}
+
+.info-about__row-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    margin: 0 auto;
+}
+
+.info-about__picture {
+    text-align: center;
+}
+
+.text-modify {
+    color: #ffffff;
+    font-family: 'PoppinsRegular';
+    font-size: 33.33px;
+    margin-top: 15px;
+}
+
+.skills {
+    background-color: #25262a;
+    width: 100%;
+}
+
+.margin-center {
+    width: 1187px;
+    margin: 0 auto;
+    margin-top: 165px;
+}
+
+.skills {
+    background-color: #22222c;
+    width: 100%;
+}
+
+.margin-center {
+    width: 1187px;
+    margin: 0 auto;
+    margin-top: 165px;
+}
+
+.skills__education {
+    margin-bottom: 254px;
+}
+
+.wrapper-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__education-block {
+    padding-right: 109px;
+    margin-top: -46px;
+}
+
+.skills__education-block:first-child {
+   padding-right: 0;
+}
+
+.skills__education-fisrt-subtitle {
+    text-transform: uppercase;
+}
+
+.skills__education-second-subtitle {
+    margin: -5px 0 5px 0;
+    color: #fff;
+    font-size: 38px;
+    font-family: 'PoppinsLight';
+    text-transform: capitalize;
+}
+
+.skills__education-second-subtitle:last-child {
+    margin-bottom: 0;
+}
+
+.skills__experience {
+    margin-bottom: 276px;
+}
+
+.skills__experience-block-top {
+    margin-bottom: 103px;
+}
+
+.skills__experience-subtitle {
+    font-size: 45px;
+    letter-spacing: 0.5px;
+    font-family: 'OpenSansSemiBold';
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.job-row {
+    display: flex;
+}
+
+.yellow-background {
+    margin: -18px 35px 0 5px;
+    background-color: #ffca05;
+    width: 218px;
+    height: 55px;
+    border-radius: 12px;
+}
+
+.yellow-background-text {
+    margin: 5px;
+    text-align: center;
+    font-family: 'PoppinsLight';
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.company-name {
+    margin-top: -62px;
+}
+
+.company-name-text {
+    margin: 47px 0 27px 0;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 0.8px;
+    font-family: 'OpenSansSemiBold';
+    text-transform: capitalize;
+}
+
+.skills__experience-text {
+    margin: 0;
+    padding: 0 44px 0 4px;
+    color: #fff;
+    font-size: 37px;
+    font-family: 'OpenSansSemiBold';
+    letter-spacing: 0.3px;
+    line-height: 56px;
+}
+
+.skills__experience-block-bottom {
+    margin-bottom: 200px;
+}
+
+.skills__expertise {
+    padding-left: 8px;
+}
+
+.image-size {
+    margin-right: 52px;
+    padding-top: 6px;
+    width: 225px;
+    height: 225px;
+}

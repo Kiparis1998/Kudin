@@ -1,0 +1,33 @@
+@font-face {
+    font-family: BebasNeueBold;
+    src: url(../fonts/bebas-neue-bold.ttf);
+}
+@font-face {
+    font-family: BebasNeueCyrillic;
+    src: url(../fonts/Bebas_Neue_Cyrillic.ttf);
+}
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: BebasNeueBook;
+    src: url(../fonts/BebasNeue\ Book.otf);
+}
+@font-face {
+    font-family: OpenSansVariable;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: PoppinsLight;
+    src: url(../fonts/Poppins-Light.otf);
+}
+@font-face {
+    font-family: OpenSansSemiBold;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+
+}
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
