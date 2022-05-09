@@ -1,0 +1,1653 @@
+$font-size-12: 12px;
+$font-size-14: 14px;
+$font-size-19: 19px;
+$font-size-16: 1rem;
+$font-size-20: 20px;
+$font-size-21: 21px;
+$font-size-22: 22px;
+$font-size-24: 24px;
+$font-size-30: 30px;
+$font-size-38: 38px;
+$font-m-b: "Montserrat-Bold";
+$font-m-r: "Montserrat-Regular";
+$special-red-color: #F0145A;
+
+@media (min-width: 1920px) 
+    .wrapper 
+        width: 100%;
+
+        .header 
+            display: flex;
+            justify-content: space-between;
+            height: 114px;
+
+            .logo       
+                margin: 55px 0 0 160px;
+                width: 297px;
+                height: 60px;
+
+            .header__info 
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                color: #B3B3BA;
+                margin: 55px 160px 0 0;
+
+                .header__info__main-text 
+                    display: flex;
+                    line-height: 25px;
+
+                    .header__info__lang 
+                        margin-right: 8px;
+                        width: 33px;
+                        height: 25px;
+                        font-size: $font-size-12;
+                        text-transform: uppercase;
+                        text-align: center;
+
+                    .header__info__lang:first-child 
+                        margin-right: 0;
+
+                    .header__info__lang:hover
+                        border-radius: 8px;
+                        text-align: center;
+                        background-color: #5b5b83;
+                        color: #fff;
+                        cursor: pointer;
+
+                    .header__info__lang_color-radius
+                        margin: 0 0 0 -7px;
+                        border-radius: 8px;
+                        width: 33px;
+                        height: 25px;
+                        text-align: center;
+                        line-height: 25px;
+                        background-color: $special-red-color;
+                        color: #fff;
+
+                    .header__info__circle   
+                        margin: 9px 6px 0 6px;
+
+                    .header__info__address
+                        font-size: $font-size-16
+                        font-family: $font-m-r;
+                        font-weight: 400;
+
+                    .header__info__number
+                        font-size: $font-size-16; 
+
+                .hamburger 
+                    display: none;
+
+                .header__info__navigation
+                    margin-top: 18.5px;
+
+                    .header__info__services
+                        display: flex;
+                        justify-content: end;
+
+                        .header__info__nav-text
+                            margin-right: 15px;
+                            padding-bottom: 3px;
+                            font-size: $font-size-16;
+                            color: #24A3FF;
+
+                        .header__info__nav-text:last-child
+                            margin-right: 0;
+
+                        .header__info__nav-text:hover
+                            border-bottom: 2px solid #24A3FF;
+                            cursor: pointer;
+
+                        .header__info__nav-text_new-color
+                            border-bottom: 2px solid $special-red-color;
+                            color: $special-red-color;
+
+                        .header__info__nav-text_new-color:hover
+                            border-bottom: 2px solid $special-red-color;
+
+        .main-info
+            margin: 65px 0 60px;
+
+            .main-info__block
+                display: flex;
+                margin: 0 auto;
+                width: 70.83%;
+
+                .main-info__left-block
+                    margin-right: 60px;
+                    width: 47.79%;
+
+                    .main-info__address
+                        margin-bottom: 30px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #323264;
+
+                    .border
+                        margin-bottom: 30px;
+                        width: 100%;
+                        height: 4px;
+                        background-color: #E6E6F0;
+
+                    .main-info__number
+                        margin-bottom: 15px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #46466E;
+
+                    .main-info__email
+                        margin-bottom: 30px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #24A3FF;
+
+                    .main-info__email:hover
+                        color: $special-red-color;
+                        cursor: pointer;
+
+                    .main-info__fb-icon-text
+                        display: flex
+                        width: 155px;
+
+                        .main-info__padding
+                            padding-right: 10px;
+
+                    .main-info__page-on-fb
+                        padding-top: 5px;
+                        font-size: $font-size-12;
+                        font-family: $font-m-b;
+                        line-height: 16px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: #24A3FF;
+
+                    .main-info__page-on-fb:hover
+                        color: $special-red-color;
+                        cursor: pointer;
+
+                .main-info__right-block
+                    width: 47.79%;
+
+                    .main-info__form
+                        display: flex;
+                        flex-direction: column;
+                        border-radius: 12px;
+                        background-color: #F5F5FA;
+                        transition-duration: 0.5s;   
+                        transition-timing-function: ease-in;        
+
+                        .main-info__form-text
+                            margin: 30px auto;
+                            width: 90.769%;
+                            font-size: 30px;
+                            font-family: 'Montserrat-Bold';
+                            line-height: 36.57px;
+                            background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+
+                        .main-info__form-name
+                            margin: 0 auto 15px;
+                            padding: 15px;
+
+                        .same-style 
+                            width: 90.769%;
+
+                        .main-info__form-message
+                            margin: 0 auto 30px;
+                            padding: 15px 0 0 15px;
+                            min-width: 70.7%
+                            max-width: 90.7%
+                            height: 130px;
+                            min-height: 130px;
+                            max-height: 200px;
+                            font-size: 16px;
+            
+                        .main-info__form-question
+                            margin: 0 auto 15px;
+                            width: 90.769%;
+                            font-size: 14px;
+                            font-family: $font-m-b;
+                            line-height: 17.07px;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            color: #B3B3BA;
+
+                        .main-info__form-number
+                            margin: 0 auto 15px;
+                            padding: 15px;
+
+                        .main-info__form-email
+                            margin: 0 auto 30px;
+                            padding: 15px;
+
+                        .main-info__button
+                            margin: 0 auto 30px;
+                            font-family: $font-m-b;
+                            line-height: 19.5px;
+                            background-color: #24A3FF;
+                            border: 0;
+                            color: #FFFFFF;
+                            transition-duration: 1s;
+
+                        .main-info__button:hover
+                            background-color: #0085FF;
+                            transform: scale(1.050);
+
+                        .main-info__button:active
+                            background-color: #006CCF;
+                            transform: scale(0.950);
+
+                    .main-info__form:hover
+                        transform: translate(30px);
+
+        .footer
+            background-color: #F5F5FA;
+
+            .footer__block
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto;
+                width: 83.33%;
+
+                .footer__info-left-side
+                    display: flex;
+                    margin: 30px 0;
+
+                    .footer_address
+                        margin-right: 10px;
+                        font-size: $font-size-16;
+                        font-family: $font-m-r;
+                        line-height: 19.5px;
+                        color: #323264;
+
+                    .footer__circle
+                        margin-right: 10px;
+                        padding-top: 7px;
+
+                    .footer__map
+                        padding-top: 3px;
+                        font-size: $font-size-12;
+                        font-family: $font-m-b;
+                        line-height: 14.63px;
+                        text-transform: uppercase;
+                        color: #24A3FF;
+
+                .footer__company
+                    margin-top: 30px;
+                    font-size: $font-size-16;
+                    font-family: $font-m-r;
+                    line-height: 19.5px;
+                    color: #B3B3BA;
+
+            .footer__extra-info
+                display: flex;
+                margin: 0 auto;
+                padding-bottom: 30px;
+                width: 83.33%;
+
+                .fb-icon
+                    margin-right: 10px;
+
+                .footer__circle
+                    margin-right: 10px;
+                    padding-top: 17px;
+
+                .footer__number
+                    margin-right: 10px;
+                    padding-top: 10px;
+                    font-size: $font-size-16;
+                    font-family: $font-m-b;
+                    line-height: 19.5px;
+                    color: #46466E;
+
+                .footer__circle
+                    margin-right: 10px;
+                    padding-top: 17px;
+
+                .footer__email
+                    padding-top: 9px;
+                    font-size: $font-size-16;
+                    font-family: $font-m-b;
+                    line-height: 19.5px;
+                    color: #24A3FF;
+
+                .footer__email:hover
+                    color: $special-red-color;
+                    cursor: pointer;
+
+::-webkit-input-placeholder 
+    color: #B3B3BA;
+
+@media (min-width: 1440px) and (max-width: 1919px)
+    .wrapper 
+        width: 100%;
+
+        .header 
+            display: flex;
+            justify-content: space-between;
+            height: 114px;
+
+            .logo       
+                margin: 55px 0 0 60px;
+                width: 297px;
+                height: 60px;
+
+            .header__info 
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                color: #B3B3BA;
+                margin: 55px 60px 0 0;
+
+                .header__info__main-text 
+                    display: flex;
+                    line-height: 25px;
+
+                    .header__info__lang 
+                        margin-right: 8px;
+                        width: 33px;
+                        height: 25px;
+                        font-size: $font-size-12;
+                        text-transform: uppercase;
+                        text-align: center;
+
+                    .header__info__lang:first-child 
+                        margin-right: 0;
+
+                    .header__info__lang:hover
+                        border-radius: 8px;
+                        text-align: center;
+                        background-color: #5b5b83;
+                        color: #fff;
+                        cursor: pointer;
+
+                    .header__info__lang_color-radius
+                        margin: 0 0 0 -7px;
+                        border-radius: 8px;
+                        width: 33px;
+                        height: 25px;
+                        text-align: center;
+                        line-height: 25px;
+                        background-color: #f0155a;
+                        color: #fff;
+
+                    .header__info__circle   
+                        margin: 9px 6px 0 6px;
+
+                    .header__info__address
+                        font-size: $font-size-16
+                        font-family: $font-m-r;
+                        font-weight: 400;
+
+                    .header__info__number
+                        font-size: $font-size-16;
+
+                .hamburger 
+                    display: none;
+
+                .header__info__navigation
+                    margin-top: 18.5px;
+
+                    .header__info__services
+                        display: flex;
+                        justify-content: end;
+
+                        .header__info__nav-text
+                            margin-right: 15px;
+                            padding-bottom: 3px;
+                            font-size: $font-size-16;
+                            color: #24A3FF;
+
+                        .header__info__nav-text:last-child
+                            margin-right: 0;
+
+                        .header__info__nav-text:hover
+                            border-bottom: 2px solid #24A3FF;
+                            cursor: pointer;
+
+                        .header__info__nav-text_new-color
+                            border-bottom: 2px solid $special-red-color;
+                            color: $special-red-color;
+                        
+                        .header__info__nav-text_new-color:hover
+                            border-bottom: 2px solid $special-red-color;
+                            cursor: pointer;
+
+        .main-info
+            margin: 65px 0 60px;
+
+            .main-info__block
+                display: flex;
+                margin: 0 auto;
+                width: 75%;
+
+                .main-info__left-block
+                    margin-right: 60px;
+                    width: 47.22%;
+
+                    .main-info__address
+                        margin-bottom: 30px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #323264;
+
+                    .border
+                        margin-bottom: 30px;
+                        width: 100%;
+                        height: 4px;
+                        background-color: #E6E6F0;
+
+                    .main-info__number
+                        margin-bottom: 15px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #46466E;
+
+                    .main-info__email
+                        margin-bottom: 30px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #24A3FF;
+
+                    .main-info__email:hover
+                        color: $special-red-color;
+                        cursor: pointer;
+
+                    .main-info__fb-icon-text
+                        display: flex
+                        width: 155px;
+
+                        .main-info__padding
+                            padding-right: 10px;
+
+                    .main-info__page-on-fb
+                        padding-top: 5px;
+                        font-size: $font-size-12;
+                        font-family: $font-m-b;
+                        line-height: 16px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: #24A3FF;
+
+                    .main-info__page-on-fb:hover
+                        color: $special-red-color;
+                        cursor: pointer;
+
+                .main-info__right-block
+                    width: 47.22%;
+
+                    .main-info__form
+                        display: flex;
+                        flex-direction: column;
+                        border-radius: 12px;
+                        background-color: #F5F5FA;
+                        transition-duration: 0.5s;   
+                        transition-timing-function: ease-in;        
+
+                        .main-info__form-text
+                            margin: 30px auto;
+                            width: 88.23%;
+                            font-size: 30px;
+                            font-family: 'Montserrat-Bold';
+                            line-height: 36.57px;
+                            background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+
+                        .main-info__form-name
+                            margin: 0 auto 15px;
+                            padding: 15px;
+
+                        .same-style 
+                            width: 88.23%;
+
+                        .main-info__form-message
+                            margin: 0 auto 30px;
+                            padding: 15px 0 0 15px;
+                            min-width: 70.7%
+                            max-width: 90.7%
+                            height: 130px;
+                            min-height: 130px;
+                            max-height: 200px;
+                            font-size: 16px;
+            
+                        .main-info__form-question
+                            margin: 0 auto 15px;
+                            width: 88.23%;
+                            font-size: 14px;
+                            font-family: $font-m-b;
+                            line-height: 17.07px;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            color: #B3B3BA;
+
+                        .main-info__form-number
+                            margin: 0 auto 15px;
+                            padding: 15px;
+
+                        .main-info__form-email
+                            margin: 0 auto 30px;
+                            padding: 15px;
+
+                        .main-info__button
+                            margin: 0 auto 30px;
+                            font-family: $font-m-b;
+                            line-height: 19.5px;
+                            background-color: #24A3FF;
+                            border: 0;
+                            color: #FFFFFF;
+                            transition-duration: 1s;
+
+                        .main-info__button:hover
+                            background-color: #0085FF;
+                            transform: scale(1.050);
+
+                        .main-info__button:active
+                            background-color: #006CCF;
+                            transform: scale(0.950);
+
+                    .main-info__form:hover
+                        transform: translate(30px);
+
+        .footer
+            background-color: #F5F5FA;
+
+            .footer__block
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto;
+                width: 91.6%;
+
+                .footer__info-left-side
+                    display: flex;
+                    margin: 30px 0;
+
+                    .footer_address
+                        margin-right: 10px;
+                        font-size: $font-size-16;
+                        font-family: $font-m-r;
+                        line-height: 19.5px;
+                        color: #323264;
+
+                    .footer__circle
+                        margin-right: 10px;
+                        padding-top: 7px;
+
+                    .footer__map
+                        padding-top: 3px;
+                        font-size: $font-size-12;
+                        font-family: $font-m-b;
+                        line-height: 14.63px;
+                        text-transform: uppercase;
+                        color: #24A3FF;
+
+                .footer__company
+                    margin-top: 30px;
+                    font-size: $font-size-16;
+                    font-family: $font-m-r;
+                    line-height: 19.5px;
+                    color: #B3B3BA;
+
+            .footer__extra-info
+                display: flex;
+                margin: 0 auto;
+                padding-bottom: 30px;
+                width: 91.6%;
+
+                .fb-icon
+                    margin-right: 10px;
+
+                .footer__circle
+                    margin-right: 10px;
+                    padding-top: 17px;
+
+                .footer__number
+                    margin-right: 10px;
+                    padding-top: 10px;
+                    font-size: $font-size-16;
+                    font-family: $font-m-b;
+                    line-height: 19.5px;
+                    color: #46466E;
+
+                .footer__circle
+                    margin-right: 10px;
+                    padding-top: 17px;
+
+                .footer__email
+                    padding-top: 9px;
+                    font-size: $font-size-16;
+                    font-family: $font-m-b;
+                    line-height: 19.5px;
+                    color: #24A3FF;
+
+                .footer__email:hover
+                    color: $special-red-color;
+                    cursor: pointer;
+
+
+::-webkit-input-placeholder 
+    color: #B3B3BA;
+
+@media (min-width: 1024px) and (max-width: 1439px)
+    .wrapper 
+        width: 100%;
+        
+        .header 
+            display: flex;
+            justify-content: space-between;
+            height: 114px;
+
+            .logo       
+                margin: 55px 0 0 60px;
+                width: 297px;
+                height: 60px;
+
+            .header__info 
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                color: #B3B3BA;
+                margin: 55px 60px 0 0;
+
+                .header__info__main-text 
+                    display: flex;
+                    line-height: 25px;
+
+                    .header__info__lang 
+                        margin-right: 8px;
+                        width: 33px;
+                        height: 25px;
+                        font-size: $font-size-12;
+                        text-transform: uppercase;
+                        text-align: center;
+
+                    .header__info__lang:first-child 
+                        margin-right: 0;
+
+                    .header__info__lang:hover
+                        border-radius: 8px;
+                        text-align: center;
+                        background-color: #5b5b83;
+                        color: #fff;
+                        cursor: pointer;
+
+                    .header__info__lang_color-radius
+                        margin: 0 0 0 -7px;
+                        border-radius: 8px;
+                        width: 33px;
+                        height: 25px;
+                        text-align: center;
+                        line-height: 25px;
+                        background-color: $special-red-color;
+                        color: #fff;
+
+                    .header__info__circle   
+                        margin: 9px 6px 0 6px;
+
+                    .header__info__address
+                        font-size: $font-size-16
+                        font-family: $font-m-r;
+                        font-weight: 400;
+
+                    .header__info__number
+                        font-size: $font-size-16;
+
+                .hamburger 
+                    display: none;
+
+                .header__info__navigation
+                    margin-top: 18.5px;
+
+                    .header__info__services
+                        display: flex;
+                        justify-content: end;
+
+                        .header__info__nav-text
+                            margin-right: 15px;
+                            padding-bottom: 3px;
+                            font-size: $font-size-16;
+                            color: #24A3FF;
+
+                        .header__info__nav-text:last-child
+                            margin-right: 0;
+
+                        .header__info__nav-text:hover
+                            border-bottom: 2px solid #24A3FF;
+                            cursor: pointer;
+
+                        .header__info__nav-text_new-color
+                            border-bottom: 2px solid $special-red-color;
+                            color: $special-red-color;
+                        
+                        .header__info__nav-text_new-color:hover
+                            border-bottom: 2px solid $special-red-color;
+                            cursor: pointer;
+
+        .main-info
+            margin: 65px 0 60px;
+
+            .main-info__block
+                display: flex;
+                margin: 0 auto;
+                width: 88.28%;
+
+                .main-info__left-block
+                    margin-right: 60px;
+                    width: 46.68%;
+
+                    .main-info__address
+                        margin-bottom: 30px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #323264;
+
+                    .border
+                        margin-bottom: 30px;
+                        width: 100%;
+                        height: 4px;
+                        background-color: #E6E6F0;
+
+                    .main-info__number
+                        margin-bottom: 15px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #46466E;
+
+                    .main-info__email
+                        margin-bottom: 30px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #24A3FF;
+
+                    .main-info__email:hover
+                        color: $special-red-color;
+                        cursor: pointer;
+
+                    .main-info__fb-icon-text
+                        display: flex
+                        width: 155px;
+
+                        .main-info__padding
+                            padding-right: 10px;
+
+                    .main-info__page-on-fb
+                        padding-top: 5px;
+                        font-size: $font-size-12;
+                        font-family: $font-m-b;
+                        line-height: 16px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: #24A3FF;
+
+                    .main-info__page-on-fb:hover
+                        color: $special-red-color;
+                        cursor: pointer;
+
+                .main-info__right-block
+                    width: 46.68%;
+
+                    .main-info__form
+                        display: flex;
+                        flex-direction: column;
+                        border-radius: 12px;
+                        background-color: #F5F5FA;
+                        transition-duration: 0.5s;   
+                        transition-timing-function: ease-in;        
+
+                        .main-info__form-text
+                            margin: 30px auto;
+                            width: 85.78%;
+                            font-size: 30px;
+                            font-family: 'Montserrat-Bold';
+                            line-height: 36.57px;
+                            background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+
+                        .main-info__form-name
+                            margin: 0 auto 15px;
+                            padding: 15px;
+
+                        .same-style 
+                            width: 85.78%;
+
+                        .main-info__form-message
+                            margin: 0 auto 30px;
+                            padding: 15px 0 0 15px;
+                            min-width: 70.7%
+                            max-width: 90.7%
+                            height: 130px;
+                            min-height: 130px;
+                            max-height: 200px;
+                            font-size: 16px;
+            
+                        .main-info__form-question
+                            margin: 0 auto 15px;
+                            width: 85.78%;
+                            font-size: 14px;
+                            font-family: $font-m-b;
+                            line-height: 17.07px;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            color: #B3B3BA;
+
+                        .main-info__form-number
+                            margin: 0 auto 15px;
+                            padding: 15px;
+
+                        .main-info__form-email
+                            margin: 0 auto 30px;
+                            padding: 15px;
+
+                        .main-info__button
+                            margin: 0 auto 30px;
+                            font-family: $font-m-b;
+                            line-height: 19.5px;
+                            background-color: #24A3FF;
+                            border: 0;
+                            color: #FFFFFF;
+                            transition-duration: 1s;
+
+                        .main-info__button:hover
+                            background-color: #0085FF;
+                            transform: scale(1.050);
+
+                        .main-info__button:active
+                            background-color: #006CCF;
+                            transform: scale(0.950);
+
+                    .main-info__form:hover
+                        transform: translate(15px);
+
+        .footer
+            background-color: #F5F5FA;
+
+            .footer__block
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto;
+                width: 88.28%;
+
+                .footer__info-left-side
+                    display: flex;
+                    margin: 30px 0;
+
+                    .footer_address
+                        margin-right: 10px;
+                        font-size: $font-size-16;
+                        font-family: $font-m-r;
+                        line-height: 19.5px;
+                        color: #323264;
+
+                    .footer__circle
+                        margin-right: 10px;
+                        padding-top: 7px;
+
+                    .footer__map
+                        padding-top: 3px;
+                        font-size: $font-size-12;
+                        font-family: $font-m-b;
+                        line-height: 14.63px;
+                        text-transform: uppercase;
+                        color: #24A3FF;
+
+                .footer__company
+                    margin-top: 30px;
+                    font-size: $font-size-16;
+                    font-family: $font-m-r;
+                    line-height: 19.5px;
+                    color: #B3B3BA;
+
+            .footer__extra-info
+                display: flex;
+                margin: 0 auto;
+                padding-bottom: 30px;
+                width: 88.28%;
+
+                .fb-icon
+                    margin-right: 10px;
+
+                .footer__circle
+                    margin-right: 10px;
+                    padding-top: 17px;
+
+                .footer__number
+                    margin-right: 10px;
+                    padding-top: 10px;
+                    font-size: $font-size-16;
+                    font-family: $font-m-b;
+                    line-height: 19.5px;
+                    color: #46466E;
+
+                .footer__circle
+                    margin-right: 10px;
+                    padding-top: 17px;
+
+                .footer__email
+                    padding-top: 9px;
+                    font-size: $font-size-16;
+                    font-family: $font-m-b;
+                    line-height: 19.5px;
+                    color: #24A3FF;
+                
+                .footer__email:hover
+                    color: $special-red-color;
+                    cursor: pointer;
+
+::-webkit-input-placeholder 
+    color: #B3B3BA;
+
+@media (min-width: 768px) and (max-width: 1023px)
+    .wrapper 
+        width: 100%;
+
+        .logo       
+            position: absolute;
+            top: 105px;
+            left: 60px;
+            width: 297px;
+            height: 60px;
+
+        .header__info 
+            position: relative;
+            color: #B3B3BA;
+        
+            .header__info__main-text 
+                display: flex;
+                line-height: 25px;
+                position: absolute;
+                top: 55px;
+                left: 60px;
+
+                .header__info__lang 
+                    margin-right: 8px;
+                    width: 33px;
+                    height: 25px;
+                    font-size: $font-size-12;
+                    text-transform: uppercase;
+                    text-align: center;
+
+                .header__info__lang:first-child 
+                    margin-right: 0;
+
+                .header__info__lang:hover
+                    border-radius: 8px;
+                    text-align: center;
+                    background-color: #5b5b83;
+                    color: #fff;
+                    cursor: pointer;
+
+                .header__info__lang_color-radius
+                    margin: 0 0 0 -7px;
+                    border-radius: 8px;
+                    width: 33px;
+                    height: 25px;
+                    text-align: center;
+                    line-height: 25px;
+                    background-color: $special-red-color;
+                    color: #fff;
+
+                .header__info__circle   
+                    margin: 9px 6px 0 6px;
+
+                .header__info__address
+                    font-size: $font-size-16
+                    font-family: $font-m-r;
+                    font-weight: 400;
+
+                .header__info__number
+                    font-size: $font-size-16;
+
+            .hamburger 
+                display: none;
+
+            .header__info__navigation
+                position: absolute;
+                top: 195px;
+                left: 60px;
+
+                .header__info__services
+                    display: flex;
+                    
+                    .header__info__nav-text
+                        margin-right: 15px;
+                        padding-bottom: 3px;
+                        font-size: $font-size-16;
+                        color: #24A3FF;
+
+                    .header__info__nav-text:last-child
+                        margin-right: 0;
+
+                    .header__info__nav-text:hover
+                        border-bottom: 2px solid #24A3FF;
+                        cursor: pointer;
+
+                    .header__info__nav-text_new-color
+                        border-bottom: 2px solid $special-red-color;
+                        color: $special-red-color;
+
+                    .header__info__nav-text_new-color:hover
+                        border-bottom: 2px solid $special-red-color;
+                        cursor: pointer;
+
+        .main-info
+            padding-top: 275px;
+
+            .main-info__block
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+                width: 84.375%;
+
+                .main-info__left-block
+                    margin-bottom: 60px;
+                    width: 100%;
+
+                    .main-info__address
+                        margin-bottom: 30px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #323264;
+
+                    .border
+                        margin-bottom: 30px;
+                        width: 100%;
+                        height: 4px;
+                        background-color: #E6E6F0;
+
+                    .main-info__number
+                        margin-bottom: 15px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #46466E;
+
+                    .main-info__email
+                        margin-bottom: 30px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #24A3FF;
+
+                    .main-info__email:hover
+                        color: $special-red-color;
+                        cursor: pointer;
+
+                    .main-info__fb-icon-text
+                        display: flex
+                        width: 155px;
+
+                        .main-info__padding
+                            padding-right: 10px;
+
+                    .main-info__page-on-fb
+                        padding-top: 5px;
+                        font-size: $font-size-12;
+                        font-family: $font-m-b;
+                        line-height: 16px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: #24A3FF;
+
+                    .main-info__page-on-fb:hover
+                        color: $special-red-color;
+                        cursor: pointer;
+
+                .main-info__right-block
+                    margin-bottom: 60px;
+                    width: 100%;
+
+                    .main-info__form
+                        display: flex;
+                        flex-direction: column;
+                        border-radius: 12px;
+                        background-color: #F5F5FA;
+                        transition-duration: 0.5s;   
+                        transition-timing-function: ease-in;        
+
+                        .main-info__form-text
+                            margin: 30px auto;
+                            width: 90.74%;
+                            font-size: 30px;
+                            font-family: 'Montserrat-Bold';
+                            line-height: 36.57px;
+                            background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+
+                        .main-info__form-name
+                            margin: 0 auto 15px;
+                            padding: 15px;
+
+                        .same-style 
+                            width: 90.74%;
+
+                        .main-info__form-message
+                            margin: 0 auto 30px;
+                            padding: 15px 0 0 15px;
+                            min-width: 70.7%
+                            max-width: 90.7%
+                            height: 130px;
+                            min-height: 130px;
+                            max-height: 200px;
+                            font-size: 16px;
+            
+                        .main-info__form-question
+                            margin: 0 auto 15px;
+                            width: 90.74%;
+                            font-size: 14px;
+                            font-family: $font-m-b;
+                            line-height: 17.07px;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            color: #B3B3BA;
+
+                        .main-info__form-number
+                            margin: 0 auto 15px;
+                            padding: 15px;
+
+                        .main-info__form-email
+                            margin: 0 auto 30px;
+                            padding: 15px;
+
+                        .main-info__button
+                            margin: 0 auto 30px;
+                            font-family: $font-m-b;
+                            line-height: 19.5px;
+                            background-color: #24A3FF;
+                            border: 0;
+                            color: #FFFFFF;
+                            transition-duration: 1s;
+
+                        .main-info__button:hover
+                            background-color: #0085FF;
+                            transform: scale(1.050);
+
+                        .main-info__button:active
+                            background-color: #006CCF;
+                            transform: scale(0.950);
+
+                    .main-info__form:hover
+                        transform: translateY(15px);
+
+        .footer
+            background-color: #F5F5FA;
+            padding-bottom: 45px;
+
+            .footer__block
+                display: flex;
+                justify-content: center;
+                position: relative;
+                margin: 0 auto;
+                width: 84.37%;
+
+                .footer__info-left-side
+                    display: flex;
+                    margin: 30px 0 30px -115px;
+
+                    .footer_address
+                        margin-right: 10px;
+                        font-size: $font-size-16;
+                        font-family: $font-m-r;
+                        line-height: 19.5px;
+                        color: #323264;
+
+                    .footer__circle
+                        margin-right: 10px;
+                        padding-top: 7px;
+
+                    .footer__map
+                        padding-top: 3px;
+                        font-size: $font-size-12;
+                        font-family: $font-m-b;
+                        line-height: 14.63px;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        color: #24A3FF;
+
+                .footer__company
+                    position: absolute;
+                    top: 115px;
+                    margin-top: 30px;
+                    font-size: $font-size-16;
+                    font-family: $font-m-r;
+                    line-height: 19.5px;
+                    color: #B3B3BA;
+
+            .footer__extra-info
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                padding-bottom: 30px;
+                width: 84.37%;
+
+                .fb-icon
+                    margin-right: 10px;
+
+                .footer__circle
+                    margin-right: 10px;
+                    padding-top: 17px;
+
+                .footer__number
+                    margin-right: 10px;
+                    padding-top: 10px;
+                    font-size: $font-size-16;
+                    font-family: $font-m-b;
+                    line-height: 19.5px;
+                    color: #46466E;
+
+                .footer__circle
+                    margin-right: 10px;
+                    padding-top: 17px;
+
+                .footer__email
+                    padding-top: 9px;
+                    font-size: $font-size-16;
+                    font-family: $font-m-b;
+                    line-height: 19.5px;
+                    color: #24A3FF;
+
+                .footer__email:hover
+                    color: $special-red-color;
+                    cursor: pointer;
+
+::-webkit-input-placeholder 
+    color: #B3B3BA;
+
+@media (min-width: 375px) and (max-width: 767px)
+    .wrapper 
+        width: 100%;
+
+        .header 
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+
+            .logo       
+                position: absolute;
+                top: 60px;
+                left: 15px;
+                width: 166px;
+                height: 57px;
+                
+            .header__info 
+                width: 100%;
+                color: #B3B3BA;
+
+                .transparency
+                    height: 45px;
+                    box-sizing: border-box;
+                    background-color: #F5F5FA;
+
+                .header__info__main-text 
+                    display: flex;
+                    position: relative;
+                    top: -35px;
+                    line-height: 25px;
+                    margin-left: 15px;
+
+                    .header__info__lang 
+                        width: 43px;
+                        height: 25px;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        text-align: center;
+                        letter-spacing: 1px;
+
+                    .header__info__lang:hover
+                        border-radius: 8px;
+                        text-align: center;
+                        background-color: #5b5b83;
+                        color: #fff;
+                        cursor: pointer;
+
+                    .header__info__lang_color-radius
+                        border-radius: 8px;
+                        width: 43px;
+                        height: 25px;
+                        text-align: center;
+                        line-height: 25px;
+                        background-color: $special-red-color;
+                        color: #fff;
+
+                    .header__info__circle   
+                        display: none;
+
+                    .header__info__address
+                        display: none;
+
+                    .header__info__number
+                        font-size: $font-size-16;
+                        width: 84%;
+                        display: flex;
+                        justify-content: end;
+                        margin-right: 15px;
+                        
+                    .fb-icon
+                        display: none;
+
+                .hamburger 
+                    display: block;
+                    display: flex;
+                    justify-content: flex-end;
+                    position: absolute;
+                    top: 45px;
+                    width: 96.7%;
+
+                .header__info__navigation
+                    margin-top: 18.5px;
+                    display: none;
+
+        .main-info
+            margin-top: 56px;
+
+            .main-info__block
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+                width: 84%;
+
+                .main-info__left-block
+                    margin-bottom: 30px;
+                    width: 100%;
+
+                    .main-info__address
+                        margin-bottom: 30px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #323264;
+
+                    .border
+                        margin-bottom: 30px;
+                        width: 100%;
+                        height: 4px;
+                        background-color: #E6E6F0;
+
+                    .main-info__number
+                        margin-bottom: 15px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #46466E;
+
+                    .main-info__email
+                        margin-bottom: 30px;
+                        font-size: $font-size-21;
+                        font-family: $font-m-r;
+                        line-height: 30px;
+                        color: #24A3FF;
+
+                    .main-info__email:hover
+                        color: $special-red-color;
+                        cursor: pointer;
+
+                    .main-info__fb-icon-text
+                        display: flex
+                        width: 155px;
+
+                        .main-info__padding
+                            padding-right: 10px;
+
+                    .main-info__page-on-fb
+                        padding-top: 5px;
+                        font-size: $font-size-12;
+                        font-family: $font-m-b;
+                        line-height: 16px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: #24A3FF;
+
+                    .main-info__page-on-fb:hover
+                        color: $special-red-color;
+                        cursor: pointer;
+
+                .main-info__right-block
+                    margin-bottom: 30px;
+                    width: 100%;
+
+                    .main-info__form
+                        display: flex;
+                        flex-direction: column;
+                        border-radius: 12px;
+                        background-color: #F5F5FA;
+                        transition-duration: 0.5s;   
+                        transition-timing-function: ease-in;        
+
+                        .main-info__form-text
+                            margin: 30px auto;
+                            width: 80.95%;
+                            font-size: 30px;
+                            font-family: 'Montserrat-Bold';
+                            line-height: 36.57px;
+                            background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+
+                        .main-info__form-name
+                            margin: 0 auto 15px;
+                            padding: 15px;
+
+                        .same-style 
+                            width: 80.95%;
+
+                        .main-info__form-message
+                            margin: 0 auto 30px;
+                            padding: 15px 0 0 15px;
+                            min-width: 70.7%
+                            max-width: 90.7%
+                            height: 130px;
+                            min-height: 130px;
+                            max-height: 200px;
+                            font-size: 16px;
+            
+                        .main-info__form-question
+                            margin: 0 auto 15px;
+                            width: 80.95%;
+                            font-size: 14px;
+                            font-family: $font-m-b;
+                            line-height: 17.07px;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            color: #B3B3BA;
+
+                        .main-info__form-number
+                            margin: 0 auto 15px;
+                            padding: 15px;
+
+                        .main-info__form-email
+                            margin: 0 auto 30px;
+                            padding: 15px;
+
+                        .main-info__button
+                            margin: 0 auto 30px;
+                            font-family: $font-m-b;
+                            line-height: 19.5px;
+                            background-color: #24A3FF;
+                            border: 0;
+                            color: #FFFFFF;
+                            transition-duration: 1s;
+
+                        .main-info__button:hover
+                            background-color: #0085FF;
+                            transform: scale(1.050);
+
+                        .main-info__button:active
+                            background-color: #006CCF;
+                            transform: scale(0.950);
+
+                    .main-info__form:hover
+                        transform: translateY(15px);
+
+        .footer
+            background-color: #F5F5FA;
+
+            .footer__block
+                position: relative;
+                margin: 0 auto;
+                padding-top: 30px;
+                width: 84%;
+
+                .footer__info-left-side
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 21px;
+                    align-items: center;
+
+                    .footer_address
+                        margin-bottom: 10px;
+                        font-size: $font-size-16;
+                        font-family: $font-m-r;
+                        line-height: 19.5px;
+                        color: #323264;
+
+                    .footer__circle
+                        display: none;
+
+                    .footer__map
+                        font-size: $font-size-12;
+                        font-family: $font-m-b;
+                        line-height: 14.63px;
+                        text-transform: uppercase;
+                        color: #24A3FF;
+
+                .footer__company
+                    position: absolute;
+                    top: 220px;
+                    width: 100%;
+                    font-size: $font-size-16;
+                    font-family: $font-m-r;
+                    text-align: center;
+                    line-height: 19.5px;
+                    color: #B3B3BA;
+
+            .footer__extra-info
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 80px;
+
+                .footer__circle
+                    display: none;
+
+                .footer__number
+                    margin: 10px 0;
+                    font-size: $font-size-16;
+                    font-family: $font-m-b;
+                    line-height: 19.5px;
+                    color: #46466E;
+
+                .footer__circle
+                    display: none;
+
+                .footer__email
+                    font-size: $font-size-16;
+                    font-family: $font-m-b;
+                    line-height: 19.5px;
+                    color: #24A3FF;
+
+                .footer__email:hover
+                    color: $special-red-color;
+                    cursor: pointer;
+
+::-webkit-input-placeholder 
+    color: #B3B3BA;
+
+// hamburger button section
+
+.hamburger-menu
+    position: relative;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    
+    #check-menu
+        display: none;
+
+    .check-label
+        display: block;
+        height: 100%;
+
+    .check-label:hover
+        cursor: pointer;
+
+    #check-menu:checked ~ .main-menu
+        max-height: 351px;
+        transform: translateX(-104.6%);
+
+    #check-menu:checked ~ .burger-line
+        transform: rotate(360deg);
+
+    .burger-line
+        position: absolute;
+        top: 9px
+        right: 10px;
+        width: 18px;
+        height: 2px;
+        transition-duration: 0.5s;
+        background-color: #323264;
+
+    .second
+        top: 15px;
+
+    .third
+        top: 21px; 
+
+    .main-menu
+        display: block;
+        position: absolute;
+        width: 359px;
+        top: 0px;
+        left: 55px;
+        transition-duration: 0.5s;
+        border-radius: 10px;
+        background-color: #B3B3BA;
+        text-align: center;
+        font-family: $font-m-b
+        max-height: 0;
+        overflow: hidden;
+
+        .main-menu-close-icon
+            display: flex;
+            justify-content: flex-end;
+            margin: 12px 12px 12px 0;
+
+        .main-menu-close-icon:hover
+            cursor: pointer;
+
+        .main-menu__title
+            display: block;
+            width: 93%;
+            height: 43px;
+            margin: 15px auto;
+            padding: 10px;
+            box-sizing: border-box;
+            color: #24A3FF;
+            background-color: #F5F5FA;
+            font-size: $font-size-24;
+            text-decoration: none;
+            border-radius: 10px;
+
+        .main-menu__title:first-child
+            margin-top: 0;
+
+        .main-menu__title:active 
+            background-color: #E6E6F0;
+            color: #F0145A;
+
+        .main-menu__title:nth-child(6)
+            color: #F0145A;
+
+// hamburger button section ends

@@ -1,0 +1,54 @@
+.text-bold-mont {
+    font-weight: 700;
+    font-family: "Montserrat-Bold";
+}
+
+.same-style {
+    height: 56px;
+    font-size: 16px;
+    font-family: 'Montserrat-Regular';
+    line-height: 26px;
+    border-radius: 8px;
+    border: 0px;
+    color: #000000;
+    transition-duration: 0.2s;
+}
+
+textarea:focus,
+input:focus {
+    border: 2px solid #24A3FF;
+    outline: none;
+}
+
+input:focus:invalid {
+    border: 2px solid #FF0000;
+    color: #FF0000;
+    outline: none;
+}
+
+.header__info__nav-text {
+    transition-duration: 0.5s;
+}
+
+.header__info__nav-text:hover {
+    transform: scale(1.2);
+}
+
+.link-style {
+    color: #24A3FF;
+    text-decoration: none;
+}
+
+.link-style:active { 
+    color: #F0145A;
+}
+
+.fb-icon,
+.footer__email {
+    transition-duration: 0.3s;
+}
+
+.fb-icon:hover {
+    fill: #F0145A;
+    cursor: pointer;
+}
