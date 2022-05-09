@@ -1,0 +1,69 @@
+.text-bold-mont {
+    font-weight: 700;
+    font-family: "Montserrat-Bold";
+}
+
+.search-text {
+    margin-bottom: 5px;
+    width: 97px;
+    color: #24A3FF;
+    font-size: 14px;
+    font-family: "Montserrat-Bold";
+    text-transform: uppercase;
+    line-height: 17px; 
+    letter-spacing: 1px;
+}
+
+.search-text:hover {
+    color: #F0145A;
+    stroke: #F0145A;
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    stroke: #F0145A;
+    cursor: pointer;
+}
+
+.gradient-title {
+    width: 100%;
+    font-size: 38px;
+    font-family: "Montserrat-Bold";
+    line-height: 46.32px;
+    margin-bottom: 30px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+}
+
+.image-width-page {
+    width: 100%;
+}
+
+.header__info__nav-text {
+    transition-duration: 0.5s;
+}
+
+.header__info__nav-text:hover {
+    transform: scale(1.2);
+}
+
+.link-style {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-style:active { 
+    color: #F0145A;
+}
+
+.fb-icon, 
+.info-about-us__main-title,
+.footer__email,
+.search-text,
+.search-icon {
+    transition-duration: 0.3s;
+}
+
+.fb-icon:hover {
+    fill: #F0145A;
+    cursor: pointer;
+}
