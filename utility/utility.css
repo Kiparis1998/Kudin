@@ -12,9 +12,11 @@
     text-transform: uppercase;
     line-height: 17px; 
     letter-spacing: 1px;
+    transition: all .4s ease-in;
 }
 
 .search-text:hover {
+    transform: translateX(10px);
     color: #F0145A;
     stroke: #F0145A;
     cursor: pointer;
@@ -66,4 +68,58 @@
 .fb-icon:hover {
     fill: #F0145A;
     cursor: pointer;
+}
+
+.team {
+    display: flex;;
+    overflow: hidden;
+}
+
+input[name="slider"] {
+    display: none;
+}
+
+#slide-1:checked ~ .slide-left {
+    margin-left: 0;
+}
+
+#slide-2:checked ~ .slide-left {
+    margin-left: -100%;
+}
+
+#slide-3:checked ~ .slide-left {
+    margin-left: -200%;
+}
+
+.team__block {
+    transition: all .8s ease-in;
+}
+
+.navigation {
+    position: relative;
+    left: 50%;
+    top: 46px;
+    transform: translateX(-50%);
+    display: flex;
+    width: 78px;
+}
+
+.bar {
+    margin-right: 15px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.3;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all, .5s;
+    background-color: #24A3FF;
+}
+
+.bar:last-child {
+    margin-right: 0px;
+}
+
+.bar:hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
