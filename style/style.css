@@ -25,9 +25,15 @@
     width: 100%;
     text-align: center;
   }
+  .wrapper .header-main-blocks .header-main-blocks__anchor .anchor-link {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
   .wrapper .header-main-blocks .header-main-blocks__anchor .anchor-link:hover {
     cursor: pointer;
     stroke: #f0155a;
+    -webkit-transform: translateY(7px);
+            transform: translateY(7px);
   }
   .wrapper .header-main-blocks .header {
     display: -webkit-box;
@@ -52,6 +58,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     position: relative;
+    z-index: 1;
     color: #fff;
     margin: 55px 160px 0 0;
   }
@@ -286,21 +293,8 @@
     font-family: "Montserrat-Regular";
     color: #B3B3BA;
   }
-  .wrapper .dots {
-    margin: 30px auto 0;
-    width: 80px;
-  }
-  .wrapper .dots__blue {
-    margin-right: 12px;
-  }
-  .wrapper .dots__translucent {
-    margin-right: 12px;
-  }
-  .wrapper .dots__translucent:last-child {
-    margin-right: 0;
-  }
   .wrapper .text-trust {
-    margin: 60px auto 30px;
+    margin: 103px auto 30px;
     width: 190px;
     font-size: 14px;
     font-family: "Montserrat-Bold";
@@ -579,9 +573,15 @@
     width: 100%;
     text-align: center;
   }
+  .wrapper .header-main-blocks .header-main-blocks__anchor .anchor-link {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
   .wrapper .header-main-blocks .header-main-blocks__anchor .anchor-link:hover {
     cursor: pointer;
     stroke: #f0155a;
+    -webkit-transform: translateY(7px);
+            transform: translateY(7px);
   }
   .wrapper .header-main-blocks .header {
     display: -webkit-box;
@@ -606,6 +606,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     position: relative;
+    z-index: 1;
     color: #fff;
     margin: 55px 60px 0 0;
   }
@@ -816,6 +817,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    min-width: 100%;
     border-radius: 12px;
     background-color: #F5F5FA;
   }
@@ -839,21 +841,8 @@
     font-family: "Montserrat-Regular";
     color: #B3B3BA;
   }
-  .wrapper .dots {
-    margin: 30px auto 0;
-    width: 80px;
-  }
-  .wrapper .dots__blue {
-    margin-right: 12px;
-  }
-  .wrapper .dots__translucent {
-    margin-right: 12px;
-  }
-  .wrapper .dots__translucent:last-child {
-    margin-right: 0;
-  }
   .wrapper .text-trust {
-    margin: 60px auto 30px;
+    margin: 103px auto 30px;
     width: 190px;
     font-size: 14px;
     font-family: "Montserrat-Bold";
@@ -1124,9 +1113,15 @@
     width: 100%;
     text-align: center;
   }
+  .wrapper .header-main-blocks .header-main-blocks__anchor .anchor-link {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
   .wrapper .header-main-blocks .header-main-blocks__anchor .anchor-link:hover {
     cursor: pointer;
     stroke: #f0155a;
+    -webkit-transform: translateY(7px);
+            transform: translateY(7px);
   }
   .wrapper .header-main-blocks .header {
     display: -webkit-box;
@@ -1368,6 +1363,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    min-width: 100%;
     border-radius: 12px;
     background-color: #F5F5FA;
   }
@@ -1391,21 +1387,8 @@
     font-family: "Montserrat-Regular";
     color: #B3B3BA;
   }
-  .wrapper .dots {
-    margin: 30px auto 0;
-    width: 80px;
-  }
-  .wrapper .dots__blue {
-    margin-right: 12px;
-  }
-  .wrapper .dots__translucent {
-    margin-right: 12px;
-  }
-  .wrapper .dots__translucent:last-child {
-    margin-right: 0;
-  }
   .wrapper .text-trust {
-    margin: 60px auto 30px;
+    margin: 103px auto 30px;
     width: 190px;
     font-size: 14px;
     font-family: "Montserrat-Bold";
@@ -1676,9 +1659,15 @@
     width: 100%;
     text-align: center;
   }
+  .wrapper .header-main-blocks .header-main-blocks__anchor .anchor-link {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
   .wrapper .header-main-blocks .header-main-blocks__anchor .anchor-link:hover {
     cursor: pointer;
     stroke: #f0155a;
+    -webkit-transform: translateY(7px);
+            transform: translateY(7px);
   }
   .wrapper .header-main-blocks .logo {
     position: absolute;
@@ -1781,7 +1770,6 @@
     position: relative;
     left: -65px;
     width: 116.32%;
-    margin: 0 auto;
   }
   .wrapper .header-main-blocks .info-about-us {
     display: -webkit-box;
@@ -1913,6 +1901,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    min-width: 100%;
     border-radius: 12px;
     background-color: #F5F5FA;
   }
@@ -1940,21 +1929,8 @@
     font-family: "Montserrat-Regular";
     color: #B3B3BA;
   }
-  .wrapper .dots {
-    margin: 30px auto 0;
-    width: 80px;
-  }
-  .wrapper .dots__blue {
-    margin-right: 12px;
-  }
-  .wrapper .dots__translucent {
-    margin-right: 12px;
-  }
-  .wrapper .dots__translucent:last-child {
-    margin-right: 0;
-  }
   .wrapper .text-trust {
-    margin: 60px auto 30px;
+    margin: 103px auto 30px;
     width: 190px;
     font-size: 14px;
     font-family: "Montserrat-Bold";
@@ -2253,9 +2229,15 @@
     width: 100%;
     text-align: center;
   }
+  .wrapper .header-main-blocks .header-main-blocks__anchor .anchor-link {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
   .wrapper .header-main-blocks .header-main-blocks__anchor .anchor-link:hover {
     cursor: pointer;
     stroke: #f0155a;
+    -webkit-transform: translateY(7px);
+            transform: translateY(7px);
   }
   .wrapper .header-main-blocks .header {
     display: -webkit-box;
@@ -2495,6 +2477,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    min-width: 100%;
     border-radius: 12px;
     background-color: #F5F5FA;
   }
@@ -2525,21 +2508,8 @@
     font-family: "Montserrat-Regular";
     color: #B3B3BA;
   }
-  .wrapper .dots {
-    margin: 30px auto 0;
-    width: 80px;
-  }
-  .wrapper .dots__blue {
-    margin-right: 12px;
-  }
-  .wrapper .dots__translucent {
-    margin-right: 12px;
-  }
-  .wrapper .dots__translucent:last-child {
-    margin-right: 0;
-  }
   .wrapper .text-trust {
-    margin: 60px auto 30px;
+    margin: 103px auto 30px;
     width: 190px;
     font-size: 14px;
     font-family: "Montserrat-Bold";
